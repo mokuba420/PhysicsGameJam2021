@@ -1,0 +1,773 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 32692 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/BazookaBot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56590
+Successfully changed project path to: E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/BazookaBot
+E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/BazookaBot
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/BazookaBot/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001705 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.622 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 1.585800 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.297400 ms  DeleteObjects: 0.061500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007647 seconds
+  Import took 0.009365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4e4acc04f22eb6840bb5c5eb4eb57dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4e4acc04f22eb6840bb5c5eb4eb57dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1f73a41c70084b524c0ae31600419') in 0.003886 seconds
+  Import took 0.005702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.512101 seconds.
+  path: Assets/Vedanth
+  artifactKey: Guid(9d6dd044fe4085144a6bc226d958c294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth using Guid(9d6dd044fe4085144a6bc226d958c294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3049778a797a4a0e7b4cd07511fca363') in 0.009145 seconds
+  Import took 0.010913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.648975 seconds.
+  path: Assets/Rory
+  artifactKey: Guid(9293a3dd88ecb3e418c2ee27a023bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory using Guid(9293a3dd88ecb3e418c2ee27a023bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be2cbc8422ddae3e7acd4d0f8c6d9f3') in 0.008364 seconds
+  Import took 0.011418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.587734 seconds.
+  path: Assets/Malakai
+  artifactKey: Guid(39191fee8a4c3dd4b96ffa2ac9ef476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malakai using Guid(39191fee8a4c3dd4b96ffa2ac9ef476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a257ba3bc573d640c556a80b34de736d') in 0.004651 seconds
+  Import took 0.006626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.297226 seconds.
+  path: Assets/Thabang
+  artifactKey: Guid(e07097822e1f72d43801753e3e936dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thabang using Guid(e07097822e1f72d43801753e3e936dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2683c7df400de2b98abf6822d923df22') in 0.005943 seconds
+  Import took 0.008136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.507299 seconds.
+  path: Assets/Annah
+  artifactKey: Guid(0ce657c224d70ba4a9b90e2bbc35e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Annah using Guid(0ce657c224d70ba4a9b90e2bbc35e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12ad8d3ff8ad8cfbd8ddc8780f6d465') in 0.004447 seconds
+  Import took 0.006372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.484483 seconds.
+  path: Assets/Annah/Annah.unity
+  artifactKey: Guid(e3e37f90de1b1fa40b5b560d8c19b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Annah/Annah.unity using Guid(e3e37f90de1b1fa40b5b560d8c19b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e21d08b8bf461dbb112bbffbc03fa4') in 0.011821 seconds
+  Import took 0.013735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.613611 seconds.
+  path: Assets/Malakai/Malakai.unity
+  artifactKey: Guid(c859ccaf0192b9543a1e2da9b6d35359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malakai/Malakai.unity using Guid(c859ccaf0192b9543a1e2da9b6d35359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47620e11f04ae65d7608b26cf8c1a1dd') in 0.004958 seconds
+  Import took 0.006820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.570937 seconds.
+  path: Assets/Rory/Rory.unity
+  artifactKey: Guid(ff4ec8d2056a54149830320b42725513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Rory.unity using Guid(ff4ec8d2056a54149830320b42725513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6f2f0c1e228f882e03d56b427fcce3') in 0.004521 seconds
+  Import took 0.006466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.089716 seconds.
+  path: Assets/Thabang/Thabang.unity
+  artifactKey: Guid(17695e6be42c8b543a88dca9dd7b7aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thabang/Thabang.unity using Guid(17695e6be42c8b543a88dca9dd7b7aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec73ede78891f8b53800909435ddc18') in 0.004730 seconds
+  Import took 0.006503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.087001 seconds.
+  path: Assets/Vedanth/Vedanth.unity
+  artifactKey: Guid(a6adde4413951ac4d801807f3f8b2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Vedanth.unity using Guid(a6adde4413951ac4d801807f3f8b2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1c0fa6dd6e4dbbaaaaabaf982662d7') in 0.005121 seconds
+  Import took 0.006932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.711653 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.008581 seconds
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 970.696212 seconds.
+  path: Assets/Vedanth/Textures
+  artifactKey: Guid(279f8833244d46d48a14e54f34e01551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures using Guid(279f8833244d46d48a14e54f34e01551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d7b88b6eaf5f28dde89fea5d336b35') in 0.005180 seconds
+  Import took 0.007387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.546118 seconds.
+  path: Assets/Vedanth/Textures/Asphalt 1.jpg
+  artifactKey: Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Asphalt 1.jpg using Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738e27558850ef0aaf017bcc27c44add') in 0.085808 seconds
+  Import took 0.087686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Vedanth/Textures/Green Stone.jpg
+  artifactKey: Guid(a8ee208236dfc594584563eaf590a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Green Stone.jpg using Guid(a8ee208236dfc594584563eaf590a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a9124dd77dfc9d4979fcb5ca657f39') in 0.011462 seconds
+  Import took 0.013243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Vedanth/Textures/Forrest Soil.jpg
+  artifactKey: Guid(5b921e7387c76ec4da32b5718a884b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Forrest Soil.jpg using Guid(5b921e7387c76ec4da32b5718a884b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c28ea54ce28c8c498fe5e213df4d4ea') in 0.011614 seconds
+  Import took 0.013637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Vedanth/Textures/Lesotho 1.jpg
+  artifactKey: Guid(5ee8d53759906464ca5aa68500473391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Lesotho 1.jpg using Guid(5ee8d53759906464ca5aa68500473391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb97a05e84bb9c070ea2fb2ab34dc934') in 0.011600 seconds
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Vedanth/Textures/Sand 1.jpg
+  artifactKey: Guid(b21a4b4c3204cac438ade593dc439df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Sand 1.jpg using Guid(b21a4b4c3204cac438ade593dc439df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b882373a001774e9de01688f0d55e46') in 0.009977 seconds
+  Import took 0.012012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Vedanth/Textures/Urban 1.JPG
+  artifactKey: Guid(1c0a6a2bbaecf1341ab326d8a867a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Urban 1.JPG using Guid(1c0a6a2bbaecf1341ab326d8a867a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce543cd79db187a4bd8459a713d00dc6') in 0.010532 seconds
+  Import took 0.012471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Vedanth/Textures/Asphalt.jpg
+  artifactKey: Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Asphalt.jpg using Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbea4659cda9e677f2166cb2c9da79b') in 0.007062 seconds
+  Import took 0.008977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Vedanth/Textures/Blue Seamless.jpg
+  artifactKey: Guid(c859a1de157c88949b3e18144fc5f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Blue Seamless.jpg using Guid(c859a1de157c88949b3e18144fc5f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e75b9b7fc6f654a9a529fd49c83efb') in 0.010096 seconds
+  Import took 0.012082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Vedanth/Textures/NewBrush.brush
+  artifactKey: Guid(1157ae1d79630d647befc2aa429076db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/NewBrush.brush using Guid(1157ae1d79630d647befc2aa429076db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5a577a8aa9c49daf8b71fd1cb30a4') in 0.014581 seconds
+  Import took 0.016308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Vedanth/Textures/NewLayer 1.terrainlayer
+  artifactKey: Guid(e46c04a9365644940a2996afc218bd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/NewLayer 1.terrainlayer using Guid(e46c04a9365644940a2996afc218bd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd792ce17637872d5b4b6511bbc6e1') in 0.017341 seconds
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Vedanth/Textures/Soil 1.jpg
+  artifactKey: Guid(8653d7f4a1b269946b8613bc6281e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Soil 1.jpg using Guid(8653d7f4a1b269946b8613bc6281e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d028bff63994e6488a7d527df841f1') in 0.008949 seconds
+  Import took 0.010658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Vedanth/Textures/Lesotho.jpg
+  artifactKey: Guid(59872bdd90ee8984e8af8dd374058544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Lesotho.jpg using Guid(59872bdd90ee8984e8af8dd374058544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d779d093b924ef4e4a1253df1f2d6c') in 0.007259 seconds
+  Import took 0.009037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Vedanth/Textures/Green Stone 1.jpg
+  artifactKey: Guid(317fd7721c61c074abd03c58668aa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Green Stone 1.jpg using Guid(317fd7721c61c074abd03c58668aa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163fc018e74149cbba0147c6bf80b40e') in 0.009384 seconds
+  Import took 0.011129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Vedanth/Textures/Seamless_dirt.jpg
+  artifactKey: Guid(6ebf3c1269a1cd448bd79403753ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Seamless_dirt.jpg using Guid(6ebf3c1269a1cd448bd79403753ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0261254370507fc1dad154ef6d9b0412') in 0.014640 seconds
+  Import took 0.016352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Vedanth/Textures/Scratched Metal.jpg
+  artifactKey: Guid(529b4cb5313637344824f089225ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Scratched Metal.jpg using Guid(529b4cb5313637344824f089225ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c1c1e2601e46666cf30d645360997a') in 0.006707 seconds
+  Import took 0.008391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Vedanth/Textures/NewLayer 2.terrainlayer
+  artifactKey: Guid(5f47afa944679d144868296d9c1cad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/NewLayer 2.terrainlayer using Guid(5f47afa944679d144868296d9c1cad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbe50b851a33e684bf99e7ff1d518a3') in 0.007852 seconds
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Vedanth/Textures/South Africa.jpg
+  artifactKey: Guid(02d942fed4aee9843b275093f2dff7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/South Africa.jpg using Guid(02d942fed4aee9843b275093f2dff7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9b4a00244bd5a457c435f68b10bba1') in 0.010228 seconds
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Vedanth/Textures/Grass 1.jpg
+  artifactKey: Guid(9c0f81be5b0510f4aa684126cda87cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Grass 1.jpg using Guid(9c0f81be5b0510f4aa684126cda87cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e946c8a764ac39d8820f445b11c9ff48') in 0.009372 seconds
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Vedanth/Textures/Rubble.jpg
+  artifactKey: Guid(84bd56186c7c938448f6b922ddaf324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Rubble.jpg using Guid(84bd56186c7c938448f6b922ddaf324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd873d4247209feb327cec46dcd93aae0') in 0.007645 seconds
+  Import took 0.009586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Vedanth/Textures/back.jpg
+  artifactKey: Guid(2a95af7bce0112343b7fbf9a5d6c7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/back.jpg using Guid(2a95af7bce0112343b7fbf9a5d6c7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a227db1c18ba6dd9c45487be40edc') in 0.008465 seconds
+  Import took 0.010310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Vedanth/Textures/Curtain1.jpg
+  artifactKey: Guid(d796991bac411524197944e93644af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Curtain1.jpg using Guid(d796991bac411524197944e93644af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dc69858f2adbe1a78e2b0a3a2f8ab0') in 0.006989 seconds
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Vedanth/Textures/Soil.jpg
+  artifactKey: Guid(3b10c1bd70e99044b8e91d3c25455a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Soil.jpg using Guid(3b10c1bd70e99044b8e91d3c25455a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2495045f3f923802bd6afcf60b98b29') in 0.008746 seconds
+  Import took 0.010769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Vedanth/Textures/Brick.jpg
+  artifactKey: Guid(9dc77a9b405358c4897fbc70d703f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Brick.jpg using Guid(9dc77a9b405358c4897fbc70d703f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575c9042a66795460fe1021e3255cd8f') in 0.008399 seconds
+  Import took 0.010231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Vedanth/Textures/Blue Fibers.jpg
+  artifactKey: Guid(48da927449d634746b1a88bb94b03e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Blue Fibers.jpg using Guid(48da927449d634746b1a88bb94b03e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7564655a1c5618e9935c3a93f2e0a09') in 0.008755 seconds
+  Import took 0.010547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Vedanth/Textures/Seamless Water.jpg
+  artifactKey: Guid(02761589738511249b812a437e1a4d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Seamless Water.jpg using Guid(02761589738511249b812a437e1a4d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9f282e54ebb4ee988e5dad3d90b196') in 0.010349 seconds
+  Import took 0.012260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Vedanth/Textures/Rock.jpg
+  artifactKey: Guid(2b008b5d86756594baed32fa5a8074ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Rock.jpg using Guid(2b008b5d86756594baed32fa5a8074ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215c51ad0782cdfd8a54c94e6762e6af') in 0.008430 seconds
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Vedanth/Textures/NewLayer.terrainlayer
+  artifactKey: Guid(f03ae25d9c5b88947a6952cf0fffdaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/NewLayer.terrainlayer using Guid(f03ae25d9c5b88947a6952cf0fffdaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb36a6c443b53472950070df86b4408') in 0.007637 seconds
+  Import took 0.009417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Vedanth/Textures/Grassy Sand.jpg
+  artifactKey: Guid(52da25d3b903f6a4db4d3ecc7a1d20e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Grassy Sand.jpg using Guid(52da25d3b903f6a4db4d3ecc7a1d20e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2235fad6996c3482c4040e2d82d2f419') in 0.008654 seconds
+  Import took 0.010372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Vedanth/Textures/Grassy Sand 1.jpg
+  artifactKey: Guid(e4cfba5be5016d243a7c296da5f194fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Grassy Sand 1.jpg using Guid(e4cfba5be5016d243a7c296da5f194fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf2329c9c1a80f1b03e7b3a420147f2') in 0.008038 seconds
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Vedanth/Textures/Grass.jpg
+  artifactKey: Guid(3f89a4ca109ad2549b690116ff037ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Grass.jpg using Guid(3f89a4ca109ad2549b690116ff037ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586cd770873bc46597e87d2bf3c49718') in 0.009081 seconds
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Vedanth/Textures/Grass_Alpha.png
+  artifactKey: Guid(8222019ed4bd55249bb7dde8798419ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Grass_Alpha.png using Guid(8222019ed4bd55249bb7dde8798419ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07032ea5854d00b152a79a3fdbb3494') in 0.022047 seconds
+  Import took 0.023903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Vedanth/Textures/Sand.jpg
+  artifactKey: Guid(e06ed75fc0bbc964781b9693ecc3f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Sand.jpg using Guid(e06ed75fc0bbc964781b9693ecc3f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeba771f4220e259f96c85d178f529b') in 0.008014 seconds
+  Import took 0.009696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Vedanth/Textures/Urban.JPG
+  artifactKey: Guid(0c1b2b6d9e7fbb34ba4e2858ceed29d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Urban.JPG using Guid(0c1b2b6d9e7fbb34ba4e2858ceed29d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aef710910f50b793bff299eb63b034') in 0.006929 seconds
+  Import took 0.008698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Vedanth/Textures/Forrest Soil 1.jpg
+  artifactKey: Guid(0b600d51d51f83c4cae24d4e8d0e73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Textures/Forrest Soil 1.jpg using Guid(0b600d51d51f83c4cae24d4e8d0e73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be5c06e4c3e7f27798fca50a26cdf9c') in 0.007677 seconds
+  Import took 0.009445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.795970 seconds.
+  path: Assets/Vedanth/Material
+  artifactKey: Guid(83e98066a16338d47aa5da64274ff187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Material using Guid(83e98066a16338d47aa5da64274ff187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cb26b495323b588927b2defc713e0e') in 0.004501 seconds
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.383706 seconds.
+  path: Assets/Vedanth/Material/Asphalt.mat
+  artifactKey: Guid(4faa7b531ff6b904685ed80026573ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Material/Asphalt.mat using Guid(4faa7b531ff6b904685ed80026573ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c06054b157205ee5b6f3965cabdec5') in 0.063001 seconds
+  Import took 0.065156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.815085 seconds.
+  path: Assets/Vedanth/Material/Asphalt.mat
+  artifactKey: Guid(4faa7b531ff6b904685ed80026573ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Material/Asphalt.mat using Guid(4faa7b531ff6b904685ed80026573ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c50f99fee2aa6d8b92db13e19da461') in 0.017508 seconds
+  Import took 0.019791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.206031 seconds.
+  path: Assets/Vedanth/Fbx
+  artifactKey: Guid(50c7b09d07348d94fb878329d47520a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx using Guid(50c7b09d07348d94fb878329d47520a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09a06b0af54be6c58aeace2b67d3808') in 0.005185 seconds
+  Import took 0.007364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.496757 seconds.
+  path: Assets/Vedanth/Fbx/Bot2_Death.FBX
+  artifactKey: Guid(e53a56ec465ca794db27154a2c06d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Bot2_Death.FBX using Guid(e53a56ec465ca794db27154a2c06d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a46e3188c096343b2a8c32ff0c2ab7e') in 0.253064 seconds
+  Import took 0.255535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Vedanth/Fbx/New Folder
+  artifactKey: Guid(9c2fdff9bff7e4b44b594fe8287dfb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/New Folder using Guid(9c2fdff9bff7e4b44b594fe8287dfb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009bcb54267b9c3513ab4e81c19330df') in 0.003797 seconds
+  Import took 0.005395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.311961 seconds.
+  path: Assets/Vedanth/Fbx/Temps
+  artifactKey: Guid(9c2fdff9bff7e4b44b594fe8287dfb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps using Guid(9c2fdff9bff7e4b44b594fe8287dfb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86791ce988bbc20b5f24f8a7955b707') in 0.004038 seconds
+  Import took 0.006310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.480784 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Bot2_Death.controller
+  artifactKey: Guid(e58d9643a87237a428f60aac94dfd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Bot2_Death.controller using Guid(e58d9643a87237a428f60aac94dfd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5113c3b6cf8e2b70d7e241d4547acf23') in 0.006827 seconds
+  Import took 0.008950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.457883 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Idle.anim
+  artifactKey: Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Idle.anim using Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07df15c21470dfb7dacad9169e2e2b7b') in 0.005638 seconds
+  Import took 0.007553 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 1.615000 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.385300 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 467.720390 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Idle.anim
+  artifactKey: Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Idle.anim using Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a022c3ff9b8fea3a50dbb4066c0b553') in 0.011826 seconds
+  Import took 0.014137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007870 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Idle.anim
+  artifactKey: Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Idle.anim using Guid(407616eecd2e55049bde8d28b038a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a022c3ff9b8fea3a50dbb4066c0b553') in 0.002159 seconds
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 1.509700 ms (FindLiveObjects: 0.125700 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.300500 ms  DeleteObjects: 0.040800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3082.
+Total: 3.694600 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.095400 ms MarkObjects: 1.706000 ms  DeleteObjects: 1.652500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.366822 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Bot2_Death.FBX
+  artifactKey: Guid(e53a56ec465ca794db27154a2c06d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Bot2_Death.FBX using Guid(e53a56ec465ca794db27154a2c06d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee39edbacb0eb202ccea978ecbe219') in 0.093528 seconds
+  Import took 0.097196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 5.890200 ms (FindLiveObjects: 0.822500 ms CreateObjectMapping: 0.484500 ms MarkObjects: 2.528100 ms  DeleteObjects: 2.054100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 3.945400 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.119900 ms MarkObjects: 1.865100 ms  DeleteObjects: 1.677300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3092.
+Total: 3.805300 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.093900 ms MarkObjects: 1.651800 ms  DeleteObjects: 1.813500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1046.744263 seconds.
+  path: Assets/Vedanth/External
+  artifactKey: Guid(610a7fe7cb15d5743bcf93d0812e1cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/External using Guid(610a7fe7cb15d5743bcf93d0812e1cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a3ed648b395d02013c3ada91d80874') in 0.006976 seconds
+  Import took 0.010199 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 4.896900 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.237400 ms  DeleteObjects: 2.229000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.871950 seconds.
+  path: Assets/Vedanth/Fbx/Temps/Bot2_Death.controller
+  artifactKey: Guid(e58d9643a87237a428f60aac94dfd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/Bot2_Death.controller using Guid(e58d9643a87237a428f60aac94dfd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f026c14c7f01e10651751abeb64e2a') in 0.022077 seconds
+  Import took 0.026278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.110751 seconds.
+  path: Assets/Vedanth/Scripts
+  artifactKey: Guid(36035076741dda047aef8de6b9465489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Scripts using Guid(36035076741dda047aef8de6b9465489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2e13a4df1d58c28ff2c095821da3b') in 0.004236 seconds
+  Import took 0.008160 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3317.
+Total: 4.327700 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.119900 ms MarkObjects: 1.911300 ms  DeleteObjects: 2.028500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.630132 seconds.
+  path: Assets/Vedanth/Fbx/Temps/BotTest.mask
+  artifactKey: Guid(cf513cf08c141d4478769a4fe5c79292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth/Fbx/Temps/BotTest.mask using Guid(cf513cf08c141d4478769a4fe5c79292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281341852bd0e7c92342faf241f8fb9d') in 0.016652 seconds
+  Import took 0.020486 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
