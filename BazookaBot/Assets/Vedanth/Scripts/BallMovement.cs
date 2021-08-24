@@ -5,20 +5,56 @@ using UnityEngine;
 public class BallMovement : MonoBehaviour
 {
     public BodyInfo Body;
-    public float Speed, maxspeed = 25f;
+    public float Speed, maxspeed = 25f, JUmpHeight = 15f;
     Rigidbody rigi;
-    Quaternion PipeRot;
+    public Quaternion PipeRot;
     public float turnspeed = 100f;
+    bool Grounded;
 
     private void Awake()
     {
         rigi = GetComponent<Rigidbody>();
+      //  Debug.Log("Start " + Body.transform.parent.rotation.y);
         PipeRot = Body.transform.parent.rotation;
+        Body.Ball = this;
     }
 
     private void Update()                           // REMEMBER TO ADD:        /Body turns with the camera  /add force forward based on camera view     /weapon fire and recoil     /polish movement and add extra speed
     {
         Rotation();
+        Brake();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+           if(Grounded == true) JumpForce();
+        }
+    }
+
+    //So you're a fan of 
+    void JumpForce() //?    WHY?
+    {
+        Grounded = false;
+        rigi.constraints = RigidbodyConstraints.None;
+        rigi.AddForce(0, JUmpHeight * 10, 0);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            rigi.constraints = RigidbodyConstraints.FreezePositionY;
+            Grounded = true;
+        }
+    }
+
+    //      Add Jump        / Fix camera issue      / add rotation
+
+    void Brake()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            rigi.velocity = new Vector3(0, 0, 0);
+        }
     }
 
     void MoveBall()
@@ -36,20 +72,51 @@ public class BallMovement : MonoBehaviour
 
         Vector3 mov = new Vector3(0, Vert, 0);
         mov = transform.TransformDirection(mov);
+        Vector3 fir = this.transform.forward;
+       // Vector3 dir = fir * Camera.main.transform.rotation;
         rigi.AddForce(mov * Speed);                 // maybe add a position.forward add force?
+    }
+
+    void ForceBall()
+    {
+        float Vert = Input.GetAxis("Vertical");
+        Vector3 dir = new Vector3(0, Speed * Vert, 0);
+        dir.Normalize();  //  Debug.Log(Vert);
+      //  Vector3 dir = this.transform.position.normalized;
+      //  Vector3 dir = this.transform.position.normalized;
+        //rigi.AddForce(dir * (Speed * Vert) * Time.deltaTime);
+        rigi.AddRelativeForce(dir * (Speed * -Vert));
+         //rigi.AddRelativeForce(Vector3.up * (Vert * Speed) * Time.deltaTime);
+         //rigi.AddRelativeForce(Vector3.up * (Vert * Speed) * Time.deltaTime);
     }
 
 
     private void LateUpdate()
     {
-        MoveBall();
+        //MoveBall();
+        ForceBall();
         PreventRotationOfBody();
     }
 
     void PreventRotationOfBody()
     {
         // Body.transform.parent.rotation = Quaternion.Euler(0, 0, this.transform.rotation.x * -1);
-        Body.transform.parent.rotation = new Quaternion(PipeRot.x, PipeRot.y, Body.transform.parent.rotation.z, PipeRot.w);    //PipeRot;
+        if (Body.Aimming == true)
+        {
+              // Body.transform.parent.rotation = PipeRot;
+           // Body.GetComponentInParent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationX;
+            Body.GetComponentInParent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY;
+            Body.GetComponentInParent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ;
+        }   
+        //  Body.transform.parent.rotation = new Quaternion(PipeRot.x, PipeRot.y, Body.transform.parent.rotation.z, PipeRot.w);    //PipeRot;   
+        else
+        {
+            //Body.transform.parent.rotation = new Quaternion(PipeRot.x, Body.transform.parent.rotation.y, Body.transform.parent.rotation.z, PipeRot.w);    //PipeRot;   
+            Body.transform.rotation = new Quaternion(Body.OgRot.x, Body.transform.parent.rotation.y, Body.transform.parent.rotation.z, Body.OgRot.w);    //PipeRot;   
+            //Body.transform.rotation = new Quaternion(PipeRot.x, Body.transform.parent.rotation.y, Body.transform.parent.rotation.z, PipeRot.w);    //PipeRot;   
+            Body.GetComponentInParent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        }   //  Debug.Log(PipeRot.y);   Debug.Log(Body.transform.parent.localRotation.y + " + " + Body.transform.parent.rotation.y);
+       // Body.transform.parent.rotation = new Quaternion(PipeRot.x, (this.transform.rotation.y - Body.Angle ), Body.transform.parent.rotation.z, PipeRot.w);    //PipeRot;
     }
 
     void Rotation()
