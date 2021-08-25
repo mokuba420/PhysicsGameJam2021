@@ -16,11 +16,19 @@ C:/Users/Rory/Documents/GitHub/PhysicsGameJam2021/BazookaBot
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 50268
 Successfully changed project path to: E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/PhysicsGameJam2021/BazookaBot
 E:/Documents/Unity Projects/_Game Jams/Free Lives/2021/PhysicsGameJam2021/BazookaBot
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 43.63 ms, found 2 plugins.
+=======
+59584
+Successfully changed project path to: C:/Users/Rory/Documents/GitHub/PhysicsGameJam2021/BazookaBot
+C:/Users/Rory/Documents/GitHub/PhysicsGameJam2021/BazookaBot
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.99 ms, found 2 plugins.
+>>>>>>> Stashed changes
 =======
 59584
 Successfully changed project path to: C:/Users/Rory/Documents/GitHub/PhysicsGameJam2021/BazookaBot
@@ -45,6 +53,7 @@ d3d12: Profiler is enabled, but stable power state is not. GPU timing errors are
 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
@@ -95,10 +104,35 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.451 seconds
 >>>>>>> Stashed changes
+=======
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001541 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
@@ -3078,6 +3112,323 @@ Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b1775
 
 ========================================================================
 Received Import Request.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.2 MB.
+System memory in use after: 148.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 2.431100 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.162000 ms MarkObjects: 1.899700 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Rory/Textures/Flame02_16x4.exr
+  artifactKey: Guid(c5d97aaba713ac04b92e07d2d3753445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Textures/Flame02_16x4.exr using Guid(c5d97aaba713ac04b92e07d2d3753445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82313c3639420e676fa9cb20e4cd5781') in 0.064731 seconds
+  Import took 0.069592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Rory/Textures/Flame02_16x4.tga
+  artifactKey: Guid(bebdddeddf2e7de459b3f3994621c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Textures/Flame02_16x4.tga using Guid(bebdddeddf2e7de459b3f3994621c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfa2e8556a45b6cae11f08dc740c21e') in 0.013350 seconds
+  Import took 0.017501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.841275 seconds.
+  path: Assets/Rory/Textures/Explosion no fire/New VFX.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Textures/Explosion no fire/New VFX.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7124728e3c1d1efb040f2887a1e52fe') in 0.009854 seconds
+  Import took 0.015325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.282906 seconds.
+  path: Assets/Rory/VFXs
+  artifactKey: Guid(621dc20f5f73e9c4280f11f4734578ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/VFXs using Guid(621dc20f5f73e9c4280f11f4734578ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa17319dbf47287c1e3e28ebb63916b5') in 0.004988 seconds
+  Import took 0.009355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.546310 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b7f648dca80eba74273176cd29095') in 0.008275 seconds
+  Import took 0.013863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038932 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b7f648dca80eba74273176cd29095') in 0.005701 seconds
+  Import took 0.010861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.391569 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ae73107f4e4a5015ac29d44b65e3cd') in 0.004680 seconds
+  Import took 0.010051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122295 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ae73107f4e4a5015ac29d44b65e3cd') in 0.003287 seconds
+  Import took 0.008428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.410324 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742cc745c006791a602a30a6a0be5f3f') in 0.003036 seconds
+  Import took 0.009155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.456577 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93929d95b581a04e910a1ab9a4598fe') in 0.003108 seconds
+  Import took 0.009012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.334127 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b066c25a6b6a546ea9269072b0497') in 0.003385 seconds
+  Import took 0.009022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.316237 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4517b07d9019627e9b7766ae8104a6') in 0.003073 seconds
+  Import took 0.007876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.280267 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cee9b25739565f3f8ba4bdd43eea19f') in 0.004198 seconds
+  Import took 0.011186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.190124 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cf646d02077e48ce395f3d10a10f20') in 0.003788 seconds
+  Import took 0.009211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.264744 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290c6f7b99c41ceb57d0dd888773bdfe') in 0.004578 seconds
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.656893 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6617d8847c91a1b53d485623d8be2415') in 0.003004 seconds
+  Import took 0.008140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055444 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477f2a109690fa65f73b40da8a582a9d') in 0.003887 seconds
+  Import took 0.010323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.639858 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5efd919c36865b9d3ae8e3974b7ace3') in 0.003415 seconds
+  Import took 0.008217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.787636 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb3276d950e01887cfe1b1c4dc33d7d') in 0.003123 seconds
+  Import took 0.008577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.993341 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c313f9c7a1cc23578a2248a468a03f') in 0.002973 seconds
+  Import took 0.008096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.780899 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28d78c3f416e9a97bc1533f120e5393') in 0.003918 seconds
+  Import took 0.010977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.929451 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c124a3a5277f31063f4c82808b7ebe53') in 0.003131 seconds
+  Import took 0.008515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.189106 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aec8939e5dd67f35c88976178444f8') in 0.003263 seconds
+  Import took 0.008667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.056712 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a022e7d2fceffc1aa111b1f939b271') in 0.003503 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.447206 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20db2a85b483b7ed8544d5a2e1a61b9') in 0.003516 seconds
+  Import took 0.008411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.214225 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65fa56b3cbdbecb6205a4c8d63b1e33') in 0.003520 seconds
+  Import took 0.008327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.442609 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c54bc91bf38bc6f1434cbc9b9c7a1d') in 0.005260 seconds
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.628871 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f269ad0cf7df5c63ea18b7141f0cd9') in 0.003484 seconds
+  Import took 0.010627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002426 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f269ad0cf7df5c63ea18b7141f0cd9') in 0.003839 seconds
+  Import took 0.009040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.912380 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb2f86140583276e01eca1c1c79a61a') in 0.003403 seconds
+  Import took 0.008178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.198547 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f638fce2f896d981bee8641170e4ad02') in 0.003515 seconds
+  Import took 0.009069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.713827 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d94427b67674ba93fd1aac652c378ca') in 0.003915 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.316392 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96af3c626f918557547f0891bf4c8bad') in 0.003612 seconds
+  Import took 0.009756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.217968 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d79eabdd21ce81ff9b902d13ae0157') in 0.003721 seconds
+  Import took 0.008920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.380010 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e22b7b1f1fd6686d2df88f1a7f64507') in 0.003592 seconds
+  Import took 0.009065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.033147 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412cfc09afdb22ed0450453798e0fc75') in 0.004806 seconds
+  Import took 0.010364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009064 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412cfc09afdb22ed0450453798e0fc75') in 0.003381 seconds
+  Import took 0.008544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.146681 seconds.
+  path: Assets/Rory/Flame.vfx
+  artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rory/Flame.vfx using Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b468c3b494da122c00f5c3a666190c') in 0.004221 seconds
+  Import took 0.010519 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   Time since last request: 2.646543 seconds.
   path: Assets/Rory/Flame.vfx
   artifactKey: Guid(f3af02723b62df7449c5670c52b17754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -3299,6 +3650,9 @@ Received Import Request.
   artifactKey: Guid(205e71195ad4d8e4d9465eb72952fca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Rory/VFXs/smokley.vfx using Guid(205e71195ad4d8e4d9465eb72952fca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a68d060fea2bf37a33b5a801bec820') in 0.003745 seconds
   Import took 0.009152 seconds .
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
