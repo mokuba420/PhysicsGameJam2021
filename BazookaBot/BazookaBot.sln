@@ -1,8 +1,14 @@
 ﻿
+<<<<<<< Updated upstream
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{86FA7D56-BB49-C1CC-1645-363E2A561F48}"
 EndProject
+=======
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+
+>>>>>>> Stashed changes
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

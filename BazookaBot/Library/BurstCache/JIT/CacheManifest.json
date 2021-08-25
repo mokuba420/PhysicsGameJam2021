@@ -3,7 +3,11 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
       "LastWriteTime": "2021-08-24T12:03:50.1515847Z"
+=======
+      "LastWriteTime": "2021-08-24T05:48:36.755976Z"
+>>>>>>> Stashed changes
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -12,6 +16,7 @@
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-05-25T11:05:50Z"
+<<<<<<< Updated upstream
     },
     {
       "FullName": "UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -28,13 +33,15 @@
     {
       "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2021-05-25T11:11:14Z"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "Functions": [
     {
       "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "02e04dd7de6237f9d865e9e9bcb69a45",
+      "ModuleHash": "d22efe9c0a2ab7e96d2493b554400c37",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
@@ -45,13 +52,14 @@
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "30ac571983859dc8bcfaf2c01b61350c",
+      "ModuleHash": "5b52b91bb5d0c3c4c2cd9ed60283a7a4",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
         1,
         2
       ]
+<<<<<<< Updated upstream
     },
     {
       "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.RigSyncSceneToStreamJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
@@ -108,6 +116,8 @@
         1,
         2
       ]
+=======
+>>>>>>> Stashed changes
     }
   ]
 }

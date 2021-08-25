@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Vedanth/Vedanth.unity
+- path: Assets/Rory/Rory.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
