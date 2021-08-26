@@ -5,32 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      ticks: 637654034124883363
-    m_Hash: 181868686
-=======
-=======
->>>>>>> Stashed changes
-      ticks: 637653809057387475
-    m_Hash: 2882772516
->>>>>>> Stashed changes
+      ticks: 637654856411119044
+    m_Hash: 4079965957
   m_LockFileStatus:
     m_FilePath: C:/Users/Rory/Documents/GitHub/PhysicsGameJam2021/BazookaBot/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      ticks: 637654034124979089
-    m_Hash: 1829426582
-=======
-=======
->>>>>>> Stashed changes
-      ticks: 637653809071036159
-    m_Hash: 3032248986
->>>>>>> Stashed changes
+      ticks: 637654856411119044
+    m_Hash: 885202543
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -504,7 +488,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.1.1
       source: 1
-      resolvedPath: E:\Documents\Unity Projects\_Game Jams\Free Lives\2021\PhysicsGameJam2021\BazookaBot\Library\PackageCache\com.unity.postprocessing@3.1.1
+      resolvedPath: C:\Users\Rory\Documents\GitHub\PhysicsGameJam2021\BazookaBot\Library\PackageCache\com.unity.postprocessing@3.1.1
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
