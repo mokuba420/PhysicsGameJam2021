@@ -73,6 +73,31 @@ public class ThirdCamm : MonoBehaviour          // ref = https://www.youtube.com
             
             GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.Half.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
             Target.GetComponent<BallMovement>().Body.Aimming = true;
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.shoot == true)
+                {
+                    //Insert some stuff about cool down
+
+                    //Shooty shooty
+                    float x = Screen.width / 2;
+                    float y = Screen.height / 2;
+                    Ray ray = Camera.main.ScreenPointToRay(new Vector3(x, y, 0));
+                    GameObject bullet = Instantiate(GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().Rocket, Camera.main.transform.position, Camera.main.transform.rotation);
+                    bullet.GetComponent<Rigidbody>().velocity = ray.direction * 100;
+
+                    //Pushback
+                    Vector3 push = -Camera.main.transform.forward * 500f;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().AddForce(push);
+
+                    //Reload
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.shoot = false;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.readloading = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.ReloadTime;
+                }
+            }
+
+
         }
         else
         {

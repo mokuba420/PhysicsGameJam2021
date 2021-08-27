@@ -51,9 +51,35 @@ public class BallMovement : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ground")
         {
+            marioPuff();
             rigi.constraints = RigidbodyConstraints.FreezePositionY;
             Grounded = true;
         }
+        else
+        {
+            SparkThatfly(collision.contacts[0].point);
+        }
+
+
+    }
+
+    void marioPuff()
+    {
+        GameObject poff = GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().partiPuff;
+        GameObject boi = Instantiate(poff, Body.Centre.transform.position, new Quaternion());
+        boi.transform.position = new Vector3(boi.transform.position.x, boi.transform.position.y - 0.5f, boi.transform.position.z);
+        boi.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
+        Destroy(boi, 2);
+    }
+
+    void SparkThatfly(Vector3 contact)
+    {
+        GameObject poff = GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().partiSpark;
+        GameObject boi = Instantiate(poff, contact, new Quaternion());
+        boi.transform.position = new Vector3(boi.transform.position.x, boi.transform.position.y, boi.transform.position.z);
+        float rnd = Random.Range(0.05f, 0.3f);
+        boi.transform.localScale = new Vector3(rnd, rnd, rnd);
+        Destroy(boi, 0.25f);
     }
 
     //      Add Jump        / Fix camera issue      / add rotation

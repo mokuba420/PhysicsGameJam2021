@@ -10,6 +10,8 @@ TagManager:
   - Ball
   - 99
   - OnScreen
+  - Man
+  - Reload
   layers:
   - Default
   - TransparentFX

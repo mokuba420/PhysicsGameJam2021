@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.UI;
 
 
 public class BodyInfo : MonoBehaviour
@@ -16,6 +17,10 @@ public class BodyInfo : MonoBehaviour
    public  Quaternion OgRot;
     public GameObject Half;
     float curY;
+    public GameObject Centre;
+    public float ReloadTime = 2;
+    public bool shoot = true;
+    public float readloading;
 
     private void Awake()
     {
@@ -39,14 +44,36 @@ public class BodyInfo : MonoBehaviour
             //this.transform.rotation = OgRot;
           //  this.transform.localRotation = OgRot;
         }
+
+        if(readloading > 0 && shoot == false)
+        {
+            readloading -= Time.smoothDeltaTime;
+
+            GameObject.FindGameObjectWithTag("Reload").GetComponent<Image>().fillAmount = (readloading / ReloadTime) * 1;
+
+
+            if (readloading <= 0)
+            {
+                shoot = true;
+                GameObject.FindGameObjectWithTag("Reload").GetComponent<Image>().fillAmount = 1;
+            }
+        }
+
     }
 
     public void moveYoBody(Camera boi)   //come on everybody!
     {
-       //curY = Mathf.Clamp(curY + Input.GetAxis("Mouse Y"), -10, 10);
+         curY = Mathf.Clamp(curY + Input.GetAxis("Mouse Y") , -30, 30);
       //  transform.Rotate(0, (Input.GetAxis("Mouse X") * Angle * Time.deltaTime), (Input.GetAxis("Mouse Y") * Angle * Time.deltaTime), Space.World);
        // transform.Rotate(0, (Input.GetAxis("Mouse X") * Angle * Time.deltaTime), (curY * Angle * Time.deltaTime), Space.World);
-        transform.Rotate(0, (Input.GetAxis("Mouse X") * Angle * Time.deltaTime),0, Space.World);
+        
+        //X axis only
+        transform.Rotate(0, (Input.GetAxis("Mouse X") * (Angle) * Time.deltaTime),0, Space.World);
+        
+       //  boi.transform.Rotate(curY * (Angle * (1/3)), 0,0, Space.World);
+         boi.transform.Rotate(curY , 0,0, Space.World);
+        
+        
         //transform.parent.Rotate((Input.GetAxis("Mouse X") * Angle * Time.deltaTime), (Input.GetAxis("Mouse Y") * Angle * Time.deltaTime), 0, Space.World);
     }
 }
