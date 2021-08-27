@@ -12,7 +12,7 @@ public class BodyInfo : MonoBehaviour
     public bool Aimming = false;
     public GameObject LeftArm, RightArm, Ant;
     public BallMovement Ball;
-   public  Vector3 OgPos;
+   public  Quaternion OgPos;
    public  Quaternion OgRot;
     public GameObject Half;
     float curY;
@@ -21,10 +21,13 @@ public class BodyInfo : MonoBehaviour
     {
         Ani = this.GetComponent<Animator>();
         this.transform.rotation = new Quaternion(0, 0, 0, this.transform.localRotation.w);
-        OgPos = this.transform.position;
+        //OgPos = this.transform.position;
         //OgPos = this.transform.localPosition;
-        OgRot = this.transform.rotation;
+        //OgRot = this.transform.rotation;
         //OgRot = this.transform.localRotation;
+        OgRot = Half.transform.rotation;
+       // OgPos = this.transform.rotation;
+        OgPos = this.transform.localRotation;
     }
 
     private void Update()
@@ -34,7 +37,7 @@ public class BodyInfo : MonoBehaviour
             //this.transform.position = OgPos;
             //this.transform.localPosition = OgPos;
             //this.transform.rotation = OgRot;
-            this.transform.localRotation = OgRot;
+          //  this.transform.localRotation = OgRot;
         }
     }
 

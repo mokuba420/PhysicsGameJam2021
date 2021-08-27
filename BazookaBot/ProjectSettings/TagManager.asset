@@ -7,6 +7,9 @@ TagManager:
   - LookAt
   - Ground
   - PP
+  - Ball
+  - 99
+  - OnScreen
   layers:
   - Default
   - TransparentFX

@@ -63,16 +63,27 @@ public class ThirdCamm : MonoBehaviour          // ref = https://www.youtube.com
         {
             //Debug.Log("Pressed");
             //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.
-            //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot;
-            //GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot;
-            GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = new Quaternion(GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot.x, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation.y, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation.z, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot.w);
-            //GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = new Quaternion(GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot.x, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation.y, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation.z, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot.w);
+            //    GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot;
+            // GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot;
+            //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = new Quaternion(GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot.x, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation.y, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation.z, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot.w);
+            // GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation = new Quaternion(GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot.x, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation.y, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.parent.rotation.z, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().PipeRot.w);
+            //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.localRotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgPos;
+
+           // GameObject.FindGameObjectWithTag("99").SetActive(true);
+            
+            GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.Half.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
             Target.GetComponent<BallMovement>().Body.Aimming = true;
         }
         else
         {
             //Debug.Log("letgo");
-            GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
+            //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
+            //  GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.Half.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
+
+            //GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.Half.transform.rotation = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.OgRot;
+
+            //GameObject.FindGameObjectWithTag("99").SetActive(false);
+
             Target.GetComponent<BallMovement>().Body.Aimming = false;
         }
     }
