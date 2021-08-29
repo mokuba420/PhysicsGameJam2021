@@ -94,6 +94,10 @@ public class ThirdCamm : MonoBehaviour          // ref = https://www.youtube.com
                     //Reload
                     GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.shoot = false;
                     GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.readloading = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.ReloadTime;
+
+                    //Dust
+                    GameObject dust = Instantiate(GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().partiDust, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.BullShoot.transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation);
+                    Destroy(dust, 2);
                 }
             }
 
@@ -110,6 +114,31 @@ public class ThirdCamm : MonoBehaviour          // ref = https://www.youtube.com
             //GameObject.FindGameObjectWithTag("99").SetActive(false);
 
             Target.GetComponent<BallMovement>().Body.Aimming = false;
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.shoot == true)
+                {
+
+                    //Shooty shooty
+                    GameObject bullet = Instantiate(GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().Rocket, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.BullShoot.transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation);
+                    bullet.GetComponent<Rigidbody>().AddForce(1000 * GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.BullShoot.transform.forward);
+
+                    //Pushback
+                    Vector3 push = -GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.gameObject.transform.forward * 500f;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().AddForce(push);
+
+                    //Reload
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.shoot = false;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.readloading = GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.ReloadTime;
+
+                    //Dust
+                    GameObject dust = Instantiate(GameObject.FindGameObjectWithTag("Man").GetComponent<ManagerBoi>().partiDust, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.BullShoot.transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<BallMovement>().Body.transform.rotation);
+                    Destroy(dust, 2);
+                }
+            }
+
+
         }
     }
 

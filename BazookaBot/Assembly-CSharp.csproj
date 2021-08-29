@@ -58,15 +58,18 @@
   <ItemGroup>
     <Compile Include="Assets\Vedanth\Scripts\BodyInfo.cs" />
     <Compile Include="Assets\Vedanth\Scripts\ManagerBoi.cs" />
+    <Compile Include="Assets\Vedanth\Scripts\Head.cs" />
     <Compile Include="Assets\Vedanth\Scripts\BallMovement.cs" />
     <Compile Include="Assets\Vedanth\Scripts\OnScreenElements.cs" />
     <Compile Include="Assets\Vedanth\Scripts\ShoulderInfo.cs" />
     <Compile Include="Assets\Vedanth\Scripts\ThirdCamm.cs" />
     <Compile Include="Assets\Vedanth\Scripts\Prev\StartingPlate.cs" />
     <Compile Include="Assets\Vedanth\Scripts\Prev\EndingPlate.cs" />
-    <Compile Include="Assets\Vedanth\Scripts\CentreLookSwitch.cs" />
-    <Compile Include="Assets\Vedanth\Scripts\Head.cs" />
     <Compile Include="Assets\Vedanth\Scripts\RocketBullet.cs" />
+    <Compile Include="Assets\Vedanth\Scripts\CentreLookSwitch.cs" />
+    <Compile Include="Assets\Vedanth\Scripts\BounceAdder.cs" />
+    <Compile Include="Assets\Vedanth\Scripts\AirFreeze.cs" />
+    <Compile Include="Assets\Scripts\GlobalCanvans.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Vedanth\Shader\Base.shader" />

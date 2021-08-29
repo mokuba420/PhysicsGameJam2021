@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 9b52d4bbb9ce37449aa84e91aa15228f
+  - enabled: 1
+    path: Assets/Vedanth/Vedanth.unity
+    guid: a6adde4413951ac4d801807f3f8b2cfd
   m_configObjects: {}

@@ -12,6 +12,7 @@ TagManager:
   - OnScreen
   - Man
   - Reload
+  - Rocket
   layers:
   - Default
   - TransparentFX

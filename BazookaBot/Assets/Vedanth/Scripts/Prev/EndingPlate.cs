@@ -8,9 +8,11 @@ public class EndingPlate : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-           // Debug.Log("YOU WIN!!!");
+         //   Debug.Log("YOU WIN!!!");
             //Insert Win Function.... Yeah, later...
-           // GameObject.FindGameObjectWithTag("Can").GetComponent<GlobalCanvans>().FinishedMission();
+           
+        
+             GameObject.FindGameObjectWithTag("Can").GetComponent<GlobalCanvans>().FinishedMission();
 
         }
     }

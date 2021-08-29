@@ -21,6 +21,7 @@ public class BodyInfo : MonoBehaviour
     public float ReloadTime = 2;
     public bool shoot = true;
     public float readloading;
+    public GameObject BullShoot;
 
     private void Awake()
     {
